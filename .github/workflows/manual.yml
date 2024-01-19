@@ -35,3 +35,4 @@ jobs:
         scan_dependencies: true
         scan_secrets: true
         api: "https://api.staging.endorlabs.com"
+        github_token: "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"
