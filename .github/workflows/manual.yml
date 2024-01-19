@@ -35,4 +35,3 @@ jobs:
         scan_dependencies: true
         scan_secrets: true
         api: "https://api.staging.endorlabs.com"
-        pr: true
