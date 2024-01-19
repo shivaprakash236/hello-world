@@ -28,7 +28,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Endor Labs Scan Pull Request
-      if: ${{ github.event_name == 'pull_request' }}
+      if: ${{ github.event_name == 'workflow_dispatch' }}
       uses: endorlabs/github-action@v1.1.1
       with:
         namespace: 'funnel_story_github_action' # Replace with your Endor Labs tenant namespace
