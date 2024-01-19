@@ -34,4 +34,5 @@ jobs:
         namespace: 'funnel_story_github_action' # Replace with your Endor Labs tenant namespace
         scan_dependencies: true
         scan_secrets: true
+        api: "https://api.staging.endorlabs.com"
         pr: true
