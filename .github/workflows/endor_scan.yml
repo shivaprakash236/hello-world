@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Manual workflow
+name: Test scan
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -43,3 +43,5 @@ jobs:
         enable_pr_comments: ${{ env.ENDORCTL_PR }}
         github_token: ${{ secrets.GITHUB_TOKEN }}
         api: https://api.staging.endorlabs.com 
+        issues: write
+        pull-requests: write
