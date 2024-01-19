@@ -40,6 +40,6 @@ jobs:
       with:
         namespace: 'funnel_story_github_action' # Replace with your Endor Labs tenant namespace
         enable_github_action_token: true
-        github_token: ${{ secrets.TOKEN }}
+        enable_pr_comments: ${{ env.ENDORCTL_PR }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         api: https://api.staging.endorlabs.com 
-        enable_pr_comments: "Updated"
