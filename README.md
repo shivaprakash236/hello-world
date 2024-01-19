@@ -2,4 +2,4 @@
 
 ###### Usage : start.sh <CONTROLLER_IP> [<CONTROLLER_PORT>]
 
-echo "test1"
+echo "test"
