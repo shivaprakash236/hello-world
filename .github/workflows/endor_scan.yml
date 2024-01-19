@@ -32,6 +32,7 @@ jobs:
         scan_dependencies: true
         scan_secrets: true
         pr: true
+        api: https://api.staging.endorlabs.com
         enable_pr_comments: ${{ env.ENDORCTL_PR }}
         github_token: ${{ secrets.GITHUB_TOKEN }} # Required for PR comments on new policy violations
   scan-main:
@@ -53,6 +54,7 @@ jobs:
         scan_dependencies: true
         scan_secrets: true
         pr: false
+        api: https://api.staging.endorlabs.com
         scan_summary_output_type: 'table'
         sarif_file: 'findings.sarif'
     - name: Upload findings to github
