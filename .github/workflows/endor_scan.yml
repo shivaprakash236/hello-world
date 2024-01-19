@@ -39,6 +39,6 @@ jobs:
       uses: endorlabs/github-action@v1.1.1
       with:
         namespace: 'funnel_story_github_action' # Replace with your Endor Labs tenant namespace
-        enable_github_action_token: true
+        enable_github_action_token: false
         github_token: ${{ secrets.TOKEN }}
         api: https://api.staging.endorlabs.com 
