@@ -43,5 +43,3 @@ jobs:
         enable_pr_comments: ${{ env.ENDORCTL_PR }}
         github_token: ${{ secrets.GITHUB_TOKEN }}
         api: https://api.staging.endorlabs.com 
-        issues: write
-        pull-requests: write
