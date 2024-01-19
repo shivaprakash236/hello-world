@@ -35,3 +35,4 @@ jobs:
         api_key: "pegg41kktxs8yTc1"
         api_secret: "N4H-ll7Dypov5ut8"
         enable_github_action_token: false
+        api: https://api.staging.endorlabs.com 
