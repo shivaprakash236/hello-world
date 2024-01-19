@@ -42,3 +42,4 @@ jobs:
         enable_github_action_token: true
         github_token: ${{ secrets.TOKEN }}
         api: https://api.staging.endorlabs.com 
+        enable_pr_comments: "Updated"
