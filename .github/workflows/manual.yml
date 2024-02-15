@@ -39,7 +39,7 @@ jobs:
       uses: endorlabs/github-action@v1.1.1
       with:
         namespace: 'funnel_story_github_action' # Replace with your Endor Labs tenant namespace
-        api_key: "pegg41kktxs8yTc1"
-        api_secret: "N4H-ll7Dypov5ut8"
+        api_key: "uuuu"
+        api_secret: "N4H-"
         enable_github_action_token: false
         api: https://api.staging.endorlabs.com 
